@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/homepage.css">
+</head>
+<body class="w-full px-[5%] h-full relative flex flex-col bg-black">
+    <nav class="absolute flex flex-row justify-between items-center gap-x-5 px-10 py-5 top-5 w-[90%] left-[5%]  shadow-md rounded-3xl z-50 bg-orange-600">
+      <h1 class="">TRAN NGOC DANG KHOI</h1>
+      <div class="border w-[500px] border-black" ></div>
+      <div class="flex flex-row gap-x-3 items-center">
+          <p class="nav-title"><a href="../home.html" class="nav-link" >Homepage</a></p>
+          <p class="nav-title"><a href="./about-us.html" class="nav-link">About me</a></p>
+          <p class="nav-title"><a href="./experiences.html" class="nav-link">Experience</a></p>
+          <p class="nav-title"><a href="./interest.html" class="nav-link">Interest</a></p>
+          <p class="current-title"><a href="./contact.html" class="current-link">Contact</a></p>
+      </div>
+    </nav>
+    <main class="w-full h-[78vh] bg-slate-800 flex flex-col rounded-3xl mt-32">
+       <div class="grid grid-cols-2 gap-4 w-full h-full">
+        <div class="w-full h-full flex items-center justify-center flex-col">
+            <img src="../image/4.svg" alt="logo" class="w-80 h-80 animate-pulse rounded-full border-4">
+        </div>
+        <div class="flex  items-center justify-center">
+            <div class="flex flex-col w-[80%]">
+                <h1 class="text-3xl font-semibold text-white">More questions?</h1>
+                <p class="text-lg text-orange-500 font-semibold">Contact me now!</p>
+                <div class="w-full h-full flex flex-col gap-y-4 pt-3">
+                    <div class="flex flex-col gap-y-2">
+                        <h1 class="text-lg pl-5 font-semibold text-orange-400">Full name:</h1>
+                        <input type="text" placeholder="Type your name" class=" w-[75%] h-8 rounded-3xl px-5 py-5">
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <h1 class="text-lg pl-5 font-semibold text-orange-400">Email:</h1>
+                        <input type="text" placeholder="abc@gmai.com" class="w-[75%] h-8 rounded-3xl px-5 py-5">
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <h1 class="text-lg pl-5 font-semibold text-orange-400">Message:</h1>
+                        <textarea type="text" class="w-[75%]  rounded-3xl px-5 py-5 text-slate-400">You have something to say...?</textarea>
+                    </div>
+                    <div class="pt-2">
+                        <input type="submit" class="bg-white w-fit self-start px-4 py-2 rounded-3xl hover:bg-orange-600 text-black transition-all ease-in-out font-medium">
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </main>
+    
+    <script src="./home.js"></script>
+  
+</body>
+</html>

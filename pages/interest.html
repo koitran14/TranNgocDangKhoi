@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/homepage.css">
+</head>
+<body class="w-full px-[5%] h-full relative flex flex-col bg-black">
+    <audio autoplay loop class="hidden">
+        <source src="../image/obsessed.mp3" type="audio/mpeg">
+    </audio>
+    <nav class="absolute flex flex-row justify-between items-center gap-x-5 px-10 py-5 top-5 w-[90%] left-[5%]  shadow-md rounded-3xl z-50 bg-orange-600">
+      <h1 class="">TRAN NGOC DANG KHOI</h1>
+      <div class="border w-[500px] border-black" ></div>
+      <div class="flex flex-row gap-x-3 items-center">
+          <p class="nav-title"><a href="../home.html" class="nav-link" >Homepage</a></p>
+          <p class="nav-title"><a href="./about-us.html" class="nav-link">About me</a></p>
+          <p class="nav-title"><a href="./experiences.html" class="nav-link">Experience</a></p>
+          <p class="current-title"><a href="./interest.html" class="current-link">Interest</a></p>
+          <p class="nav-title"><a href="./contact.html" class="nav-link">Contact</a></p>
+      </div>
+    </nav>
+    <main class="w-full h-[78vh] flex flex-col mt-32 bg-slate-800 rounded-3xl">
+        <div class="flex flex-rows gap-x-4 py-4 px-8 w-full h-full">
+            <div class=" w-[25rem] flex-shrink-0 flex flex-col  shadow-md  overflow-hidden h-full bg-black rounded-3xl p-3">
+                <div class="w-full h-[60%] bg-orange-600 relative py-6 px-8 flex flex-col justify-center rounded-t-3xl">
+                    <img src="../image/cd.svg" alt="disc" class="w-32 h-32 absolute -bottom-16 left-[5%] animate-spin">
+                    <h1 class="text-md font-light">NOW PLAYING</h1>
+                    <h1 class="text-[42px] leading-10 font-semibold">OBSESSED</h1>
+                    <p class="text-extralight italic text-slate-800">Olivia Rodrigo</p>
+                    <p id="currentTime" class="absolute bottom-2 right-2 text-[45px] leading-10 tracking-wider font-extralight"></p>
+                </div>
+                <div class="mt-16 flex flex-col gap-y-3 px-12 overflow-y-auto no-scrollbar">
+                    <a target="_blank" href="https://open.spotify.com/track/2o1pb13quMReXZqE7jWsgq?si=27a5b5d440b54b12">
+                        <div class="text-white flex flex-row items-center gap-x-6 pb-2 px-2 border-b-2 border-b-slate-700" >
+                            <h1 class="text-slate-500 font-semibold text-2xl">1</h1>
+                            <div class="flex flex-col text-md">
+                                <h1>intro (end of the world)</h1>
+                                <p>Ariana Grande</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://open.spotify.com/track/6tNgRQ0K2NYZ0Rb9l9DzL8?si=6f2ea6f6f78943cd">
+                        <div class="text-white flex bg-orange-500/90 flex-row items-center gap-x-6 p-2 rounded-2xl " >
+                            <h1 class="text-white font-semibold text-2xl">2</h1>
+                            <div class="flex flex-col text-md">
+                                <h1>Obsessed</h1>
+                                <p>Olivia Rodrigo</p>
+                            </div>
+                        </div>
+                   </a>
+                   <a target="_blank" href="https://open.spotify.com/track/7wC5eZcFS1Q1BsQ35DU6H4?si=d534cb432c944c6a">
+                        <div class="text-white flex flex-row items-center gap-x-6 pt-2 px-2 border-t-2 border-t-slate-700" >
+                            <h1 class="text-slate-500 font-semibold text-2xl">3</h1>
+                            <div class="flex flex-col text-md">
+                                <h1>come out and play</h1>
+                                <p>Billie Eilish</p>
+                            </div>
+                        </div>
+                   </a>
+                    <a target="_blank" href="https://open.spotify.com/track/6qL5UWxRSQYml9O99ozoLv?si=33edca8e038541d9">
+                        <div class="text-white flex flex-row items-center gap-x-6 pt-2 px-2 border-t-2 border-t-slate-700" >
+                            <h1 class="text-slate-500 font-semibold text-2xl">4</h1>
+                            <div class="flex flex-col text-md">
+                                <h1>Love Songs - Bonus</h1>
+                                <p>Kaash Paige</p>
+                            </div>
+                        </div>
+                    </a>
+                   <a target="_blank" href="https://open.spotify.com/track/5qCZTDYRqMENitupuEaILd?si=5503ccda6b564f8f">
+                        <div class="text-white flex flex-row items-center gap-x-6 pt-2 px-2 border-t-2 border-t-slate-700" >
+                            <h1 class="text-slate-500 font-semibold text-2xl">5</h1>
+                            <div class="flex flex-col text-md">
+                                <h1>Right now</h1>
+                                <p>Gracie Abrams</p>
+                            </div>
+                        </div>
+                   </a>
+                    <a target="_blank" href="https://open.spotify.com/track/4wcBRRpIfesgcyUtis7PEg?si=3f45ad52b65f41ac">
+                        <div class="text-white flex flex-row items-center gap-x-6 pt-2 px-2 border-t-2 border-t-slate-700" >
+                            <h1 class="text-slate-500 font-semibold text-2xl">6</h1>
+                            <div class="flex flex-col text-md">
+                                <h1 class=" line-clamp-1">1 step forward, 3 steps back</h1>
+                                <p>Olivia Rodrigo</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="w-full flex flex-col gap-y-4 bg-slate-700 rounded-3xl py-6 px-8">
+                <div class="pb-2 border-b border-b-slate-500">
+                    <h1 class="pl-1 text-slate-300 text-xs font-medium ">koitran14 / README<span class="text-slate-400">.md</span></h1>
+                </div>                
+                <div class="flex flex-col gap-y-2">
+                    <h1 class="text-white text-2xl font-semibold">💫 I love... </h1>
+                    <div class="flex flex-row gap-x-3">
+                        <h1 class="py-2 px-3 bg-amber-500 rounded-3xl text-white">Programming</h1>
+                        <h1 class="py-2 px-3 bg-rose-500 rounded-3xl text-white">Games</h1>
+                        <h1 class="py-2 px-3 bg-lime-500 rounded-3xl text-white">Movies</h1>
+                        <h1 class="py-2 px-3 bg-blue-500 rounded-3xl text-white">Photography</h1>
+                        <h1 class="py-2 px-3 bg-pink-500 rounded-3xl text-white">Pokemon</h1>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-y-2 mt-4">
+                    <h1 class="text-white text-2xl font-semibold">💫 Fav frameworks:</h1>
+                    <div class="flex flex-row gap-x-3">
+                        <h1 class="py-2 px-3 bg-indigo-500 rounded-3xl text-white">Next.JS</h1>
+                        <h1 class="py-2 px-3 bg-emerald-500 rounded-3xl text-white">Tailwind CSS</h1>
+                        <h1 class="py-2 px-3 bg-lime-500 rounded-3xl text-white">React</h1>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-y-2 mt-4">
+                    <h1 class="text-white text-2xl font-semibold">💫 Movies:</h1>
+                    <div class="flex flex-col gap-y-3 w-[50%]">
+                        <div class="flex flex-row gap-x-6 items-center text-white ">
+                            <h1 class="text-3xl font-medium text-yellow-400">🏆</h1>
+                            <div class="flex flex-col text-md">
+                                <p>Eternal Sunshine of Spotless Mind</p>
+                                <p>2004 - film</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-x-6 items-center text-white ">
+                            <h1 class="text-3xl font-medium text-zinc-300"> #2</h1>
+                            <div class="flex flex-col text-md">
+                                <p>Past Lives</p>
+                                <p>2023 - film</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-x-6 items-center text-white ">
+                            <h1 class="text-3xl font-medium text-amber-500"> #3</h1>
+                            <div class="flex flex-col text-md">
+                                <p>Elemental</p>
+                                <p>2023 - film</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="../home.js"></script>
+</body>
+</html>

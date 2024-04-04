@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link href="../output.css" rel="stylesheet">
+</head>
+<body class="w-full px-[5%] h-full relative flex flex-col bg-black">
+    <nav class="absolute flex flex-row justify-between items-center gap-x-5 px-10 py-5 top-5 w-[90%] left-[5%]  shadow-md rounded-3xl z-50 bg-orange-600">
+      <h1 class="">TRAN NGOC DANG KHOI</h1>
+      <div class="border w-[500px] border-black" ></div>
+      <div class="flex flex-row gap-x-3 items-center">
+          <p class="nav-title"><a href="../home.html" class="nav-link" >Homepage</a></p>
+          <p class="current-title"><a href="./about-us.html" class="current-link">About me</a></p>
+          <p class="nav-title"><a href="./experiences.html" class="nav-link">Experience</a></p>
+          <p class="nav-title"><a href="./interest.html" class="nav-link">Interest</a></p>
+          <p class="nav-title"><a href="./contact.html" class="nav-link">Contact</a></p>
+      </div>
+    </nav>
+    <main class="w-full h-[78vh] flex flex-col mt-32">
+        <div class="w-full h-[60%] rounded-t-3xl overflow-hidden ">
+            <img alt="cover" src="../image/2.jpg" class="object-cover w-full h-full brightness-75">
+        </div>
+        <div class="grid grid-cols-3 gap-4 rounded-b-3xl bg-slate-900 py-8">
+            <div class="w-full h-full flex flex-col gap-y-4 px-16 items-center justify-center border-r border-white">
+                <h1 class="text-zinc-800 font-semibold text-2xl bg-orange-600 px-3 py-1 rounded-3xl">ABOUT ME</h1>
+                <p class="text-white text-justify ">My name is <span class="font-semibold text-orange-300 ">Tran Ngoc Dang Khoi</span>, as a junior at <span class="text-rose-500 font-medium">International University</span>, I have a huge passion on web application development, combining technical expertise with an artistic touch. Explore my diverse portfolio and join me in shaping a meaningful impact in the world of web development and beyond.</p>
+            </div>
+            <div class="w-full h-full flex flex-col gap-y-4 px-16 items-center justify-start border-r border-white">
+                <h1 class="text-zinc-800 font-semibold text-2xl bg-orange-600 px-3 py-1 rounded-3xl">EDUCATION</h1>
+                <div class="flex flex-row w-full justify-between items-center">
+                  <p class="text-white font-medium"><span class="text-orange-500">2018 - 2021:</span> Student of Tien Giang High School for The Gifted.</p>
+                </div>
+                <div class="flex flex-row w-full justify-between items-center">
+                    <p class="text-white font-medium">
+                    <span class="text-orange-500">2021 - present:</span> 
+                    Pursuing a bachelor's degree in computer science at International University.
+                </p>
+                </div>
+            </div>
+            <div class="w-full h-full flex flex-col gap-y-4 px-16 items-center justify-start">
+                <h1 class="text-zinc-800 font-semibold text-2xl bg-orange-600 px-3 py-1 rounded-3xl">TOP QUOTE</h1>
+                <p class="text-white text-justify italic pt-8">"The best thing about life is that everything you've ever lost, will be replaced with something better.
+                    You never lack, you just transition!"</p>
+                <p class="w-full text-end text-slate-400 italic">— Unknown</p>
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="./home.js"></script>
+  
+</body>
+</html>

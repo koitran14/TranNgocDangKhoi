@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/homepage.css">
+</head>
+<body class="w-full px-[5%] h-full relative flex flex-col bg-black">
+    <nav class="absolute flex flex-row justify-between items-center gap-x-5 px-10 py-5 top-5 w-[90%] left-[5%]  shadow-md rounded-t-3xl z-50 bg-orange-600">
+      <h1 class="">TRAN NGOC DANG KHOI</h1>
+      <div class="border w-[500px] border-black" ></div>
+      <div class="flex flex-row gap-x-3 items-center">
+          <p class="nav-title"><a href="../home.html" class="nav-link" >Homepage</a></p>
+          <p class="nav-title"><a href="./about-us.html" class="nav-link">About me</a></p>
+          <p class="current-title"><a href="./experiences.html" class="current-link">Experience</a></p>
+          <p class="nav-title"><a href="./interest.html" class="nav-link">Interest</a></p>
+          <p class="nav-title"><a href="./contact.html" class="nav-link">Contact</a></p>
+      </div>
+    </nav>
+    <main class="w-full h-[86vh] flex flex-col mt-16 pb-8 bg-slate-900 rounded-b-3xl">
+        <div class="w-full h-full mt-16">
+            <div class="grid grid-cols-3 gap-2 w-full h-full">
+                <div class="grid grid-rows-2 rounded-3xl  px-8 gap-y-6"> 
+                   <div class="w-full h-full bg-orange-600 rounded-3xl py-4 px-6 flex flex-col gap-y-4 relative">
+                        <h1 class="text-3xl font-semibold">PROGRAMMING LANGUAGE</h1>
+                        <div class="flex flex-row justify-between pt-5">
+                            <img alt="nextjs" src="../image/nextjs.svg" class="w-20 h-20">
+                            <img alt="nextjs" src="../image/tailwindcss.svg" class="w-20 h-20 rounded-full bg-black">
+                            <img alt="nextjs" src="../image/mongodb.svg" class="w-20 h-20 bg-black rounded-full">
+                        </div>
+                        <div class="w-full justify-end flex flex-row absolute top-4 right-5">
+                            <a href="https://github.com/koitran14" class="hover:scale-110 transition-all ease-in-out"><button class="text-3xl font-medium bg-black text-orange-400 px-4 rounded-full">></button></a>
+                        </div>
+                   </div>
+                   
+                   <div class=" py-4 px-6 rounded-3xl flex flex-col gap-y-6 bg-slate-800/80">
+                        <h1 class="w-full font-medium text-2xl text-orange-600 pl-5">OVERVIEW</h1>
+                        <div class="w-full h-8 border-2 border-black overflow-hidden rounded-3xl">
+                            <div class="w-[78%] h-full bg-orange-700 flex items-center px-5 font-medium text-white"> Programming</div>
+                        </div>
+                        <div class="w-full h-8 border-2 border-black overflow-hidden rounded-3xl">
+                            <div class="w-[85%] h-full bg-orange-700 flex items-center px-5 font-medium text-white"> Teamworking</div>
+                        </div>
+                        <div class="w-full h-8 border-2 border-black overflow-hidden rounded-3xl">
+                            <div class="w-[70%] h-full bg-orange-700 flex items-center px-5 font-medium text-white"> Communication</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-2 border-2 border-orange-600 rounded-3xl overflow-hidden shadow-md">
+                    <div class="w-full h-[25%] bg-orange-600 flex flex-row justify-between items-center px-12 ">
+                        <h1 class="text-4xl font-medium">experiences </h1>
+                        <a href="https://github.com/koitran14?tab=repositories">                        
+                            <button class="px-4 py-2 bg-black text-orange-600 font-bold text-lg rounded-full">---></button>
+                        </a>
+                    </div>
+                    <div class="bg-slate-800 w-full h-full flex flex-row gap-x-12 overflow-x-scroll px-12 py-8">
+                        <div class="w-60 h-80 relative overflow-hidden flex-shrink-0 rounded-3xl ">
+                            <img alt='kaka' src="../image/image.gif" class="w-full h-full  object-center object-cover absolute top-0 left-0">
+                            <div class="absolute py-2 px-6 bottom-0 left-0 w-full h-20 bg-orange-500 backdrop-blur-md ">
+                                <h1 class="font-medium text-md">THE TREASURE HUNT</h1>
+                                <p class="italic text-slate-600 font-normal text-xs">Object-Oriented Programming Project</p>
+                            </div>
+                        </div>
+                        <div class="w-60 h-80 relative overflow-hidden flex-shrink-0 rounded-3xl">
+                            <img alt='kaka' src="../image/algovisualizer.png" class="w-full h-full  object-center object-cover absolute top-0 left-0">
+                            <div class="absolute py-2 px-6 bottom-0 left-0 w-full h-20 bg-orange-500 ">
+                                <h1 class="font-medium text-md">ALGORITHM VISUALIZER</h1>
+                                <p class="italic text-slate-600 font-normal text-xs">Algorithms and Data Structure Project</p>
+                            </div>
+                        </div>
+                        <div class="w-60 h-80 relative overflow-hidden flex-shrink-0 rounded-3xl ">
+                            <img alt='kaka' src="../image/lms.png" class="w-full h-full  object-center object-cover absolute top-0 left-0">
+                            <div class="absolute py-2 px-6 bottom-0 left-0 w-full h-20 bg-orange-500">
+                                <h1 class="font-medium text-md">COURSE MANAGEMENT SYSTEM</h1>
+                                <p class="italic text-slate-600 font-normal text-xs">Principle of Database Project</p>
+                            </div>
+                        </div>
+                        <div class="w-60 h-80 relative overflow-hidden flex-shrink-0 rounded-3xl ">
+                            <img alt='kaka' src="../image/ecommerce.jpeg" class="w-full h-full  object-center object-cover absolute top-0 left-0">
+                            <div class="absolute py-2 px-6 bottom-0 left-0 w-full h-20 bg-orange-500">
+                                <h1 class="font-medium text-md">PISCES: E-SHOP</h1>
+                                <p class="italic text-slate-600 font-normal text-xs">Personal Project for Web Application Development</p>
+                            </div>
+                        </div>
+                        <div class="w-60 h-80 py-8 px-6 flex-shrink-0 flex rounded-3xl bg-orange-500 items-center justify-center">
+                            <a href="https://github.com/koitran14?tab=repositories">
+                                <div class="w-fit h-fit p-3 rounded-full border-dashed border-2 duration-300 border-black hover:scale-110 transition-all ease-in-out">
+                                    <img alt="github" src="../image/github.svg" class="w-20 h-20 animate-pulse">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="./home.js"></script>
+  
+</body>
+</html>
